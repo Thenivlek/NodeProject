@@ -1,0 +1,18 @@
+{
+  "name": "meu-projeto node Js",
+  "version": "1.0.0",
+  "description": "Exemplo de projeto Restify",
+  "main": "src/server.js",
+  "dependencies": {
+    "neo4j-driver": "^5.11.0",
+    "restify": "8.5.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-router": "1.2.1"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": "10.24.1"
+  }
+}
