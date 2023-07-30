@@ -11,11 +11,10 @@ Este projeto serve exclusivamente para fazer conexão com o projeto FrontCrudPro
 
 1. Clone o repositório para sua máquina local: https://github.com/Thenivlek/NodeProject
 
-2. Navegue para o diretório do projeto: ./NodeProject
+2. Navegue para o diretório do projeto: /NodeProject
 
 
-3. Instale as dependências: npm install
-
+3. Instale as dependências: npm install restify@8.5.1 neo4j-driver restify-cors-middleware --save
 
 ## Configuração
 
