@@ -6,6 +6,7 @@ Este projeto serve exclusivamente para fazer conexão com o projeto FrontCrudPro
 
 - Node.js (versão 10.24.1)
 - npm (versão compativel com a versão do NodeJs)
+- NVM para trocas da versão do Node.
 
 ## Instalação
 
