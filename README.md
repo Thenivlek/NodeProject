@@ -29,14 +29,14 @@ O servidor estará rodando em: `http://localhost:8081/`.
 ## Considerações Finais 
 
 - **Dificuldades durante o desenvolvimento do projeto**
-1. Apesar de já conhecer gerenciamento de banco de dados orientado a grafos tive pouco contato com a linguagem Cypher, devido a isso tive que dedicar mais tempo de estudo.
+1. Apesar de já conhecer gerenciamento de banco de dados orientado a grafos tive pouco contato com a linguagem Cypher, devido a isso tive que dedicar meior tempo de estudo.
 
 - **Facilidades durante o desenvolvimento do projeto**
 1. Já tive experiência prévia com o NodeJs, devido a isso o tempo de desenvolvimento foi menor.
 
 - **Possíveis melhorias no projeto**
 1. Criação de token de segurança para validação de usuário.
-2. Estruturação de código para possíveis implementações futuras.
+2. Melhor estruturação de código para possíveis implementações futuras.
 3. Criação do arquivo .env para maior segurança do banco de dados (devido a facilidade de testes optei por manter o acesso ao banco de dados diretamente no código)
 
 
