@@ -1,4 +1,4 @@
-# Projeto Node.js Bakc-end API
+# Projeto Node.js Back-end API
 
 Este projeto serve exclusivamente para fazer conexão com o projeto FrontCrudProject (disponivel em: https://github.com/Thenivlek/FrontCrudProject). Sua função é receber as requisições voltadas para CRUD em uma lista de tarefas simples e manter a conexão com o Banco de dados Neo4j.
 
