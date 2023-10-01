@@ -1,6 +1,6 @@
 const neo4j = require('neo4j-driver');
 async function deleteAll() {
-    const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+    const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
     const session = driver.session();
     try {
       await session.run('MATCH (n) DETACH DELETE n');
@@ -14,7 +14,7 @@ async function deleteAll() {
     }
 }
 async function deleteChecklist(id) {
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
   id = JSON.parse(id);
 
@@ -35,7 +35,7 @@ async function deleteChecklist(id) {
   }
 }
 async function deleteTask(dataItem) {
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
   const data = JSON.parse(dataItem);
 
@@ -57,7 +57,7 @@ async function deleteTask(dataItem) {
   }
 }
 async function getAllChecklists() {
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
   
   try {
@@ -85,7 +85,7 @@ async function getAllChecklists() {
 }
 async function createChecklist(checklistData) {
   checklistData = JSON.parse(checklistData);
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
 
   try {
@@ -122,7 +122,7 @@ async function createChecklist(checklistData) {
 }
 async function createTask(taskData) {
   taskData = JSON.parse(taskData);
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
 
   try {
@@ -161,7 +161,7 @@ async function createTask(taskData) {
   }
 }
 async function updateChecklist(checklistData) {
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
 
   try {
@@ -203,7 +203,7 @@ async function updateChecklist(checklistData) {
   }
 }
 async function updateChecklistItem(newChecklistData) {
-  const driver = neo4j.driver('neo4j+s://2c0451c3.databases.neo4j.io', neo4j.auth.basic('neo4j', 'ZehL6Lcxtvk6Dkq6Yhiud0oBK3hwcjoCtxK2gAW6IIQ'));
+  const driver = neo4j.driver('neo4j+s://5d438318.databases.neo4j.io', neo4j.auth.basic('neo4j', 's7lhySwU8SjH9jaPe5hrXPs112YQaXsWvRJhO8jzYT8'));
   const session = driver.session();
 
   try {

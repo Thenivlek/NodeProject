@@ -4,8 +4,8 @@
   "description": "Exemplo de projeto Restify",
   "main": "src/server.js",
   "dependencies": {
-    "neo4j-driver": "^5.11.0",
-    "restify": "8.5.1",
+    "neo4j-driver": "^5.13.0",
+    "restify": "^8.5.1",
     "restify-cors-middleware": "^1.1.1",
     "restify-router": "1.2.1"
   },
